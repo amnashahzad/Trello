@@ -1,0 +1,51 @@
+    /* Add styles to create the Trello board, lists, and cards */
+    body {
+        font-family: Arial, sans-serif;
+      }
+  
+      #board {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+  
+      .list {
+        background-color: #f2f2f2;
+        width: 250px;
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+      }
+  
+      .list h3 {
+        margin: 0 0 10px 0;
+        font-size: 18px;
+      }
+  
+      .cards-container {
+        min-height: 100px;
+        margin-bottom: 10px;
+      }
+  
+      .card {
+        background-color: #ffffff;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-radius: 3px;
+      }
+  
+      .card-buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+      }
+  
+      button {
+        display: block;
+        background-color: #ffffff;
+        padding: 5px;
+        border: none;
+        color: #007bff;
+        cursor: pointer;
+      }
